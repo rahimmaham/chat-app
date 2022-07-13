@@ -1,0 +1,45 @@
+{
+  "name": "simple-chat-system",
+  "version": "1.0.0",
+  "description": "chat system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec \"eslint src --fix && babel-node\" ./src/index.js"
+  },
+  "author": "maham",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16",
+    "eslint": "^8.7.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "lumie": "^0.1.2",
+    "mongoose": "^6.3.5",
+    "passport": "^0.6.0",
+    "passport-http-bearer": "^1.0.1",
+    "path": "^0.12.7",
+    "redis": "^4.2.0",
+    "socket.io": "^4.5.1",
+    "socket.io-redis": "^6.1.1"
+  }
+}
